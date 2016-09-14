@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+AutoUpdate-Show-In-Client: true
+Bundle-Localization: AspectJ/Bundle
+Bundle-Name: %OpenIDE-Module-Name
+Bundle-SymbolicName: AspectJ
+Bundle-Version: 1.0
+
