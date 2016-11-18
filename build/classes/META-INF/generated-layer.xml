@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN"
+                            "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="Actions">
+        <folder name="Refactoring">
+            <file name="myorg-Review.instance">
+                <!--myorg.Review-->
+                <attr bundlevalue="myorg.Bundle#CTL_Review" name="displayName"/>
+                <attr
+                    methodvalue="org.openide.awt.Actions.alwaysEnabled" name="instanceCreate"/>
+                <attr name="delegate" newvalue="myorg.Review"/>
+                <attr name="iconBase" stringvalue="myorg/2016-09-20_19-40-41.png"/>
+                <attr boolvalue="false" name="noIconInMenu"/>
+            </file>
+        </folder>
+        <folder name="Edit">
+            <file name="testplugin.instance">
+                <!--myorg.NewHelloWorldActionListner-->
+                <attr name="displayName" stringvalue="Hello World II"/>
+                <attr
+                    methodvalue="org.openide.awt.Actions.alwaysEnabled" name="instanceCreate"/>
+                <attr name="delegate" newvalue="myorg.NewHelloWorldActionListner"/>
+                <attr boolvalue="false" name="noIconInMenu"/>
+            </file>
+            <file name="testpluginI.instance">
+                <!--myorg.ToolBarListenerII-->
+                <attr name="displayName" stringvalue="Hello World I"/>
+                <attr
+                    methodvalue="org.openide.awt.Actions.alwaysEnabled" name="instanceCreate"/>
+                <attr name="delegate" newvalue="myorg.ToolBarListenerII"/>
+                <attr name="iconBase" stringvalue="myorg/batmand.png"/>
+                <attr boolvalue="false" name="noIconInMenu"/>
+            </file>
+            <file name="myorg-NewHelloWorldTopComponent.instance">
+                <!--myorg.NewHelloWorldTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="myorg.NewHelloWorldTopComponent"/>
+                <attr name="preferredID" stringvalue="NewHelloWorldTopComponent"/>
+                <attr name="displayName" stringvalue="Hello World Window"/>
+            </file>
+            <file name="myorg-NewHelloWorldActionListener.instance">
+                <!--myorg.NewHelloWorldTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="myorg.NewHelloWorldTopComponent"/>
+                <attr name="preferredID" stringvalue="NewHelloWorldTopComponent"/>
+                <attr name="displayName" stringvalue="Hello World Window"/>
+            </file>
+            <file name="myorg-NewHelloWorldActionListner.instance">
+                <!--myorg.NewHelloWorldTopComponent-->
+                <attr
+                    methodvalue="org.openide.windows.TopComponent.openAction" name="instanceCreate"/>
+                <attr name="component" newvalue="myorg.NewHelloWorldTopComponent"/>
+                <attr name="preferredID" stringvalue="NewHelloWorldTopComponent"/>
+                <attr name="displayName" stringvalue="Hello World Window"/>
+            </file>
+            <file name="myorg-HelloWorldEditor.instance">
+                <!--myorg.HelloWorldEditorI-->
+                <attr name="displayName" stringvalue="Hello World II"/>
+                <attr
+                    methodvalue="org.openide.awt.Actions.alwaysEnabled" name="instanceCreate"/>
+                <attr name="delegate" newvalue="myorg.HelloWorldEditorI"/>
+                <attr name="iconBase" stringvalue="myorg/batmand.png"/>
+                <attr boolvalue="false" name="noIconInMenu"/>
+            </file>
+            <file name="myorg-HelloWorldEditorI.instance">
+                <!--myorg.HelloWorldEditorI-->
+                <attr name="displayName" stringvalue="Hello World II"/>
+                <attr
+                    methodvalue="org.openide.awt.Actions.alwaysEnabled" name="instanceCreate"/>
+                <attr name="delegate" newvalue="myorg.HelloWorldEditorI"/>
+                <attr name="iconBase" stringvalue="myorg/batmand.png"/>
+                <attr boolvalue="false" name="noIconInMenu"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Toolbars">
+        <folder name="Build">
+            <file name="myorg-Review.shadow">
+                <!--myorg.Review-->
+                <attr name="originalFile" stringvalue="Actions/Refactoring/myorg-Review.instance"/>
+                <attr intvalue="500" name="position"/>
+            </file>
+        </folder>
+        <folder name="File">
+            <file name="testpluginI.shadow">
+                <!--myorg.ToolBarListenerII-->
+                <attr name="originalFile" stringvalue="Actions/Edit/testpluginI.instance"/>
+            </file>
+            <file name="myorg-HelloWorldEditor.shadow">
+                <!--myorg.HelloWorldEditorI-->
+                <attr name="originalFile" stringvalue="Actions/Edit/myorg-HelloWorldEditor.instance"/>
+            </file>
+            <file name="myorg-HelloWorldEditorI.shadow">
+                <!--myorg.HelloWorldEditorI-->
+                <attr name="originalFile" stringvalue="Actions/Edit/myorg-HelloWorldEditorI.instance"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Menu">
+        <folder name="File">
+            <file name="testplugin.shadow">
+                <!--myorg.NewHelloWorldActionListner-->
+                <attr name="originalFile" stringvalue="Actions/Edit/testplugin.instance"/>
+            </file>
+            <file name="testpluginI.shadow">
+                <!--myorg.ToolBarListenerII-->
+                <attr name="originalFile" stringvalue="Actions/Edit/testpluginI.instance"/>
+            </file>
+        </folder>
+        <folder name="View">
+            <file name="testpluginI.shadow">
+                <!--myorg.ToolBarListenerII-->
+                <attr name="originalFile" stringvalue="Actions/Edit/testpluginI.instance"/>
+            </file>
+            <file name="myorg-HelloWorldEditor.shadow">
+                <!--myorg.HelloWorldEditorI-->
+                <attr name="originalFile" stringvalue="Actions/Edit/myorg-HelloWorldEditor.instance"/>
+            </file>
+            <file name="myorg-HelloWorldEditorI.shadow">
+                <!--myorg.HelloWorldEditorI-->
+                <attr name="originalFile" stringvalue="Actions/Edit/myorg-HelloWorldEditorI.instance"/>
+            </file>
+        </folder>
+        <folder name="Window">
+            <file name="myorg-NewHelloWorldTopComponent.shadow">
+                <!--myorg.NewHelloWorldTopComponent-->
+                <attr name="originalFile" stringvalue="Actions/Edit/myorg-NewHelloWorldTopComponent.instance"/>
+            </file>
+            <file name="myorg-NewHelloWorldActionListener.shadow">
+                <!--myorg.NewHelloWorldTopComponent-->
+                <attr name="originalFile" stringvalue="Actions/Edit/myorg-NewHelloWorldActionListener.instance"/>
+            </file>
+            <file name="myorg-NewHelloWorldActionListner.shadow">
+                <!--myorg.NewHelloWorldTopComponent-->
+                <attr name="originalFile" stringvalue="Actions/Edit/myorg-NewHelloWorldActionListner.instance"/>
+            </file>
+        </folder>
+    </folder>
+    <folder name="Windows2">
+        <folder name="Components">
+            <file name="NewHelloWorldTopComponent.settings">
+                <!--myorg.NewHelloWorldTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE settings PUBLIC "-//NetBeans//DTD Session settings 1.0//EN" "http://www.netbeans.org/dtds/sessionsettings-1_0.dtd">
+<settings version="1.0">
+  <instance class="myorg.NewHelloWorldTopComponent"/>
+</settings>
+]]></file>
+        </folder>
+        <folder name="Modes">
+            <folder name="output">
+                <file name="NewHelloWorldTopComponent.wstcref">
+                    <!--myorg.NewHelloWorldTopComponent--><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tc-ref PUBLIC "-//NetBeans//DTD Top Component in Mode Properties 2.0//EN" "http://www.netbeans.org/dtds/tc-ref2_0.dtd">
+<tc-ref version="2.0">
+  <tc-id id="NewHelloWorldTopComponent"/>
+  <state opened="true"/>
+</tc-ref>
+]]></file>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="Editors">
+        <folder name="text">
+            <folder name="x-java">
+                <folder name="popup">
+                    <file name="myorg-HelloWorldEditor.shadow">
+                        <!--myorg.HelloWorldEditorI-->
+                        <attr name="originalFile" stringvalue="Actions/Edit/myorg-HelloWorldEditor.instance"/>
+                    </file>
+                    <file name="myorg-HelloWorldEditorI.shadow">
+                        <!--myorg.HelloWorldEditorI-->
+                        <attr name="originalFile" stringvalue="Actions/Edit/myorg-HelloWorldEditorI.instance"/>
+                    </file>
+                </folder>
+                <folder name="Popup">
+                    <file name="myorg-HelloWorldEditorI.shadow">
+                        <!--myorg.HelloWorldEditorI-->
+                        <attr name="originalFile" stringvalue="Actions/Edit/myorg-HelloWorldEditorI.instance"/>
+                    </file>
+                </folder>
+            </folder>
+        </folder>
+    </folder>
+    <folder name="OptionsDialog">
+        <folder name="Advanced">
+            <file name="myorg-HelloWorldOptionsOptionsPanelController.instance">
+                <!--myorg.HelloWorldOptionsOptionsPanelController-->
+                <attr
+                    methodvalue="org.netbeans.spi.options.AdvancedOption.createSubCategory" name="instanceCreate"/>
+                <attr name="controller" newvalue="myorg.HelloWorldOptionsOptionsPanelController"/>
+                <attr
+                    bundlevalue="myorg.Bundle#AdvancedOption_DisplayName_HelloWorldOptions" name="displayName"/>
+                <attr
+                    bundlevalue="myorg.Bundle#AdvancedOption_Keywords_HelloWorldOptions" name="keywords"/>
+                <attr name="keywordsCategory" stringvalue="Advanced/HelloWorldOptions"/>
+            </file>
+        </folder>
+    </folder>
+</filesystem>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><module codename="myorg">
+    <module_version install_time="1474763857720" last="true" origin="installer" specification_version="1.0">
+        <file crc="178037261" name="config/Modules/myorg.xml"/>
+        <file crc="596262274" name="modules/myorg.jar"/>
+    </module_version>
+</module>
